@@ -16,13 +16,14 @@ public class IncrementMarmite : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Macro macro = other.gameObject.GetComponent<Macro>();
-        kcal += macro.kcal;
-        prot += macro.prot;
-        carb += macro.carb;
-        fat += macro.fat;
-        macro.Reset();
-
-        Debug.Log(other.gameObject.name + " " + kcal + " " + prot + " " + carb + " " + fat);
+        if (macro != null)
+        {
+            kcal += macro.kcal;
+            prot += macro.prot;
+            carb += macro.carb;
+            fat += macro.fat;
+            macro.Reset();
+        }
     }
 
     // Update is called once per frame
