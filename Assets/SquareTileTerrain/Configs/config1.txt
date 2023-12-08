@@ -1,0 +1,13 @@
+Assets/SquareTileTerrain/Example/TilePrefabs
+Assets/SquareTileTerrain/Example/RulesSprites
+Assets/SquareTileTerrain/Example/Other/Tile_TNF.prefab
+10
+10
+Assets/SquareTileTerrain/Example/Heightmap1.png
+32
+Assets/SquareTileTerrain/Example/Tilemap1.png
+Assets/SquareTileTerrain/Example/Tree/TreePrefab.prefab
+Assets/SquareTileTerrain/Example/Treemap1.png
+3
+0
+True
