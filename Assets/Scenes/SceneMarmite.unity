@@ -3371,7 +3371,7 @@ PrefabInstance:
     - target: {fileID: 6457725450409641694, guid: 49631361040b46f4889e95efdb1b1a3c,
         type: 3}
       propertyPath: m_Name
-      value: KitchenProps_01
+      value: Marmite
       objectReference: {fileID: 0}
     - target: {fileID: 9074005148136849144, guid: 49631361040b46f4889e95efdb1b1a3c,
         type: 3}
