@@ -21,10 +21,7 @@ public class IncrementMarmite : MonoBehaviour
         carb += other.gameObject.GetComponent<Macro>().carb;
         fat += other.gameObject.GetComponent<Macro>().fat;
         Destroy(other.gameObject);
-        Debug.Log(kcal);
-        Debug.Log(prot);
-        Debug.Log(carb);
-        Debug.Log(fat);
+        //Debug.Log(kcal + " " + prot + " " + carb + " " + fat);
     }
 
     // Update is called once per frame
