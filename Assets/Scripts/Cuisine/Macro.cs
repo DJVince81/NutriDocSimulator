@@ -25,12 +25,15 @@ public class Macro : MonoBehaviour
 
     }
 
+<<<<<<< Updated upstream
     public void Reset()
     {
         transform.position = initPos;
         transform.rotation = initRot;
     }
 
+=======
+>>>>>>> Stashed changes
     public void sendUpdate()
     {
         UpdateUI.SetGrab(gameObject);
