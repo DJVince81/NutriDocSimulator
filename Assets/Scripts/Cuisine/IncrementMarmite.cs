@@ -1,13 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class IncrementMarmite : MonoBehaviour
 {
-    private int kcal = 0;
-    private int prot = 0;
-    private int carb = 0;
-    private int fat = 0;
+    public int kcal = 0;
+    public int prot = 0;
+    public int carb = 0;
+    public int fat = 0;
+
     // Start is called before the first frame update
     void Start()
     {

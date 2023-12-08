@@ -17,6 +17,16 @@ public class Macro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void sendUpdate()
+    {
+        UpdateUI.SetGrab(gameObject);
+    }
+
+    public void resetUpdate()
+    {
+        UpdateUI.SetGrab();
     }
 }
