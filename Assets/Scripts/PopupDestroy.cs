@@ -15,30 +15,33 @@ public class PopupDestroy : MonoBehaviour
 
     void Update()
     {
-        if (star == 0)
+        if (star1 != null && star2 != null && star3 != null)
         {
-            star1.color = new Color(1f, 1f, 1f, 0.4f);
-            star2.color = new Color(1f, 1f, 1f, 0.4f);
-            star3.color = new Color(1f, 1f, 1f, 0.4f);
-        }
-        else if (star == 1)
-        {
-            star1.color = new Color(1f, 1f, 1f, 1f);
-            star2.color = new Color(1f, 1f, 1f, 0.4f);
-            star3.color = new Color(1f, 1f, 1f, 0.4f);
+            if (star == 0)
+            {
+                star1.color = new Color(1f, 1f, 1f, 0.4f);
+                star2.color = new Color(1f, 1f, 1f, 0.4f);
+                star3.color = new Color(1f, 1f, 1f, 0.4f);
+            }
+            else if (star == 1)
+            {
+                star1.color = new Color(1f, 1f, 1f, 1f);
+                star2.color = new Color(1f, 1f, 1f, 0.4f);
+                star3.color = new Color(1f, 1f, 1f, 0.4f);
 
-        }
-        else if (star == 2)
-        {
-            star1.color = new Color(1f, 1f, 1f, 1f);
-            star2.color = new Color(1f, 1f, 1f, 1f);
-            star3.color = new Color(1f, 1f, 1f, 0.4f);
-        }
-        else
-        {
-            star1.color = new Color(1f, 1f, 1f, 1f);
-            star2.color = new Color(1f, 1f, 1f, 1f);
-            star3.color = new Color(1f, 1f, 1f, 1f);
+            }
+            else if (star == 2)
+            {
+                star1.color = new Color(1f, 1f, 1f, 1f);
+                star2.color = new Color(1f, 1f, 1f, 1f);
+                star3.color = new Color(1f, 1f, 1f, 0.4f);
+            }
+            else
+            {
+                star1.color = new Color(1f, 1f, 1f, 1f);
+                star2.color = new Color(1f, 1f, 1f, 1f);
+                star3.color = new Color(1f, 1f, 1f, 1f);
+            }
         }
     }
 
